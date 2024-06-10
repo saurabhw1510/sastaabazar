@@ -1,0 +1,52 @@
+/* * {
+  overflow: hidden;
+} */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.admin-nav img {
+  width: 170px;
+  height: 65px;
+}
+.user-image {
+  width: 100px;
+  object-fit: contain;
+}
+.admin-nav {
+  background-color: aliceblue !important;
+  padding: 1em;
+}
+.user {
+  padding: 4em !important;
+  background-color: #f3f3f3 !important;
+}
+.actions {
+  margin-left: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.actions button {
+  margin: 1em;
+}
+.actions a {
+  padding: 1em 2em;
+}
+.footer {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 2em;
+  bottom: 0;
+  width: 100%;
+}
